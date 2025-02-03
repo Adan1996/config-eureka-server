@@ -4,8 +4,8 @@ eureka:
     fetch-registry: true
     service-url:
       # defaultZone: ${eureka_url:http://192.168.60.254:8761/eureka/}
-      defaultZone: http://host.docker.internal:8761/eureka/
+      defaultZone: discovery-service:8761/eureka/
     instance:
-      hostname: host.docker.internal
+      hostname: discovery-service
       # hostname: 192.168.60.254
       # prefer-ip-address: true
