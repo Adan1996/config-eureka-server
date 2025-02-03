@@ -4,8 +4,6 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: ${eureka_url:http://192.168.60.254:8761/eureka/}
-      # defaultZone: http://localhost:8761/eureka/ #it can be able in local computer
     instance:
       hostname: 192.168.60.254
       prefer-ip-address: true
-      # hostname: localhost #it can be able in local computer
